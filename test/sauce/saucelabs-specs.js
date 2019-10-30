@@ -28,8 +28,8 @@ chaiAsPromised.transferPromiseness = wd.transferPromiseness;
 if (process.env.SAUCE_USERNAME == '' || process.env.SAUCE_ACCESS_KEY == '') {
   console.warn(
     '\nPlease configure your sauce credential:\n\n' +
-    'export SAUCE_USERNAME=<SAUCE_USERNAME>\n' +
-    'export SAUCE_ACCESS_KEY=<SAUCE_ACCESS_KEY>\n\n'
+    'export SAUCE_USERNAME=barnewa\n' +
+    'export SAUCE_ACCESS_KEY=7edf8005-b3ca-4cd9-b2d6-9982ab6cffb7\n\n'
   );
   throw new Error('Missing Sauce Labs Credentials!');
 }
